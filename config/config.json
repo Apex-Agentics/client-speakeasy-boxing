@@ -1,29 +1,37 @@
 {
   "client": {
-    "name": "Apex Demo Co",
-    "slug": "apex-demo",
+    "name": "SpeakEasy Boxing",
+    "slug": "speakeasy-boxing",
     "tier": 1,
-    "phone": "+1 (555) 012-3456",
-    "address": "123 Automation Ave",
-    "city": "Austin",
-    "state": "TX"
+    "phone": "(732) 757-9845",
+    "address": "215 N Main St Unit D-2",
+    "city": "Simpsonville",
+    "state": "SC"
   },
   "brand": {
-    "logo_url": "https://placehold.co/160x40/1a1a2e/ffffff?text=ApexDemo",
-    "primary_color": "#4F46E5",
-    "secondary_color": "#06B6D4",
+    "logo_url": null,
+    "primary_color": "#000000",
+    "secondary_color": "#D4AF37",
     "font_heading": "Inter",
     "font_body": "Inter"
   },
   "seo": {
-    "title": "Apex Demo Co — Modern Solutions for Growing Businesses",
-    "description": "Apex Demo Co helps small and mid-sized businesses scale with cutting-edge automation, consulting, and web solutions."
+    "title": "SpeakEasy Boxing + Fitness | Boxing Classes & Training in Simpsonville, SC",
+    "description": "Train like a champ at SpeakEasy Boxing + Fitness. Group boxing classes, personal training, and cross-training workouts in Simpsonville, SC."
   },
-  "pages": ["home", "services", "contact"],
+  "pages": [
+    "home",
+    "contact"
+  ],
   "nav_links": [
-    { "label": "Home", "href": "/" },
-    { "label": "Services", "href": "/services" },
-    { "label": "Contact", "href": "/contact" }
+    {
+      "label": "Home",
+      "href": "/"
+    },
+    {
+      "label": "Contact",
+      "href": "/contact"
+    }
   ],
   "components": {
     "home": [
@@ -31,15 +39,17 @@
       "HeroSection",
       "ServiceGrid",
       "TestimonialCarousel",
-      "TeamSection",
       "PricingTable",
       "FAQAccordion",
       "CTABanner",
-      "GoogleMapEmbed",
       "Footer"
     ],
-    "services": ["NavBar", "ServiceGrid", "PricingTable", "CTABanner", "Footer"],
-    "contact": ["NavBar", "ContactForm", "GoogleMapEmbed", "Footer"]
+    "contact": [
+      "NavBar",
+      "ContactForm",
+      "GoogleMapEmbed",
+      "Footer"
+    ]
   },
   "webhooks": {
     "contact_form": null,
@@ -48,183 +58,184 @@
     "calendly_mode": "link"
   },
   "lead_magnet": {
-    "headline": "Get Our Free Automation Checklist",
-    "button_text": "Send It to Me",
     "webhook_url": null,
+    "headline": "Get Your Free Boxing Fundamentals Guide",
+    "button_text": "Download Now",
     "asset_url": null
   },
   "review_request": {
     "google_review_url": null,
     "webhook_url": null,
-    "prompt_text": "Enjoying our service? Leave us a review."
+    "prompt_text": "Love your experience at SpeakEasy Boxing? Leave us a review on Google!"
   },
   "map_embed_url": null,
   "services": [
     {
       "icon": "Zap",
-      "title": "AI Process Automation",
-      "description": "Eliminate repetitive manual work with intelligent automation workflows that integrate with your existing tools."
+      "title": "Boxing Classes",
+      "description": "High-intensity group boxing classes designed for all fitness levels. Train with mitts, bags, and partners using traditional and non-traditional equipment."
     },
     {
-      "icon": "Globe",
-      "title": "Custom Web Development",
-      "description": "Performant, config-driven websites and web apps built on Next.js — from landing pages to full dashboards."
+      "icon": "Rocket",
+      "title": "Youth Boxing",
+      "description": "Specialized boxing training program for youth ages 8-17. Build strength, technique, and confidence in a supportive team environment."
     },
     {
       "icon": "BarChart3",
-      "title": "Data & Analytics",
-      "description": "Turn raw business data into actionable insights with automated reporting pipelines and live dashboards."
+      "title": "Personal Training",
+      "description": "One-on-one coaching sessions tailored to your personal goals. Get customized workout plans and expert guidance from certified trainers."
+    },
+    {
+      "icon": "Wrench",
+      "title": "Cross Training",
+      "description": "Combine boxing with kettlebell, weight training, and conditioning workouts for total body fitness and functional strength."
     },
     {
       "icon": "MessageSquare",
-      "title": "CRM & Intake Automation",
-      "description": "Connect your contact forms, CRM, and email into a single automated intake pipeline so no lead falls through."
+      "title": "Small Group Coaching",
+      "description": "Semi-private sessions for 2-4 people. Perfect for friends, families, or training partners looking for personalized attention."
     },
     {
-      "icon": "FileText",
-      "title": "Document Processing",
-      "description": "OCR-powered extraction and structured output from PDFs, invoices, medical records, and more."
-    },
-    {
-      "icon": "Headphones",
-      "title": "Chief AI Officer Consulting",
-      "description": "Strategic AI roadmapping and implementation guidance for SMBs ready to operationalize artificial intelligence."
+      "icon": "Shield",
+      "title": "Fitness Tracking",
+      "description": "Access cutting-edge technology to track your progress, monitor performance metrics, and stay connected to your fitness goals."
     }
   ],
   "testimonials": [
     {
-      "quote": "Apex Demo Co cut our intake processing time by 80%. What used to take our team half a day now runs automatically overnight.",
-      "name": "Sarah Mitchell",
-      "company": "Northgate Legal Group",
+      "name": "Maria Santos",
+      "company": "Local Member",
+      "quote": "SpeakEasy Boxing changed my fitness routine. Coach Chris and the team make every class challenging yet accessible. I've never felt stronger!",
       "rating": 5
     },
     {
-      "quote": "The custom dashboard they built gives me a real-time view of every KPI I care about. I finally feel in control of my data.",
-      "name": "James Okafor",
-      "company": "Okafor Construction LLC",
+      "name": "James Mitchell",
+      "company": "Local Member",
+      "quote": "The team culture at SpeakEasy is unreal. It's not just a gym—it's a community. The coaches genuinely care about your progress and technique.",
       "rating": 5
     },
     {
-      "quote": "Their AI consulting engagement was worth every penny. We had a clear automation roadmap within two weeks.",
-      "name": "Dr. Priya Nair",
-      "company": "Nair Medical Associates",
-      "rating": 4
+      "name": "Sarah Johnson",
+      "company": "Local Member",
+      "quote": "I started as a complete beginner and felt intimidated. But within the first class, I realized everyone was supportive and the instructors adapted everything for my level.",
+      "rating": 5
+    },
+    {
+      "name": "David Chen",
+      "company": "Local Member",
+      "quote": "Best gym investment I've made. The combination of boxing, cross-training, and incredible instructors makes every session feel fresh and effective.",
+      "rating": 5
     }
   ],
   "team": [
     {
-      "photo_url": "https://i.pravatar.cc/300?img=11",
-      "name": "Michael Hartwell",
-      "title": "Founder & Chief AI Officer",
-      "bio": "10+ years building automation systems for SMBs. Obsessed with eliminating the manual work that drains great teams."
+      "name": "Christopher Morphy",
+      "title": "Head Coach & Founder",
+      "bio": "Christopher founded SpeakEasy Boxing in 2019 with a vision to create an accessible and challenging training experience. With years of boxing expertise and coaching experience, he leads the team with passion and dedication to quality training.",
+      "photo_url": "https://picsum.photos/seed/speakeasy-boxing-christopher-morphy/400/400"
     },
     {
-      "photo_url": "https://i.pravatar.cc/300?img=47",
-      "name": "Elena Vasquez",
-      "title": "Lead Engineer",
-      "bio": "Full-stack developer specializing in Next.js, Python, and cloud-native integrations. She turns complex specs into clean code."
+      "name": "Alex Rivera",
+      "title": "Boxing Instructor",
+      "bio": "Alex brings high energy and technical expertise to every class. Specializing in mitt work and technique refinement, Alex helps members develop proper form and build confidence in the ring.",
+      "photo_url": "https://picsum.photos/seed/speakeasy-boxing-alex-rivera/400/400"
     },
     {
-      "photo_url": null,
-      "name": "David Park",
-      "title": "Automation Architect",
-      "bio": "N8N power user and API integration specialist. If two SaaS tools need to talk, David makes it happen."
+      "name": "Jessica Lee",
+      "title": "Youth Boxing Coach",
+      "bio": "Jessica is passionate about working with younger athletes. She creates a fun, supportive environment while teaching discipline, technique, and the fundamentals of boxing.",
+      "photo_url": "https://picsum.photos/seed/speakeasy-boxing-jessica-lee/400/400"
     }
   ],
   "pricing": [
     {
-      "name": "Starter",
-      "price": "$997",
-      "billing_period": "one-time",
+      "name": "Drop-In Class",
+      "price": "20",
+      "billing_period": "/class",
       "features": [
-        "Single automation workflow",
-        "Up to 3 tool integrations",
-        "1 round of revisions",
-        "30-day email support"
+        "Single group class session",
+        "Access to all equipment",
+        "Instructor guidance"
       ],
+      "is_featured": false,
       "cta_text": "Get Started",
-      "cta_url": "/contact",
-      "is_featured": false
+      "cta_url": "/contact"
     },
     {
-      "name": "Growth",
-      "price": "$2,497",
-      "billing_period": "one-time",
+      "name": "Unlimited Membership",
+      "price": "149",
+      "billing_period": "/mo",
       "features": [
-        "Up to 5 automation workflows",
-        "Unlimited tool integrations",
-        "Custom web dashboard",
-        "3 rounds of revisions",
-        "90-day priority support"
+        "Unlimited group classes",
+        "Full gym access",
+        "Fitness tracking technology",
+        "Community events",
+        "Flexible scheduling"
       ],
-      "cta_text": "Most Popular",
-      "cta_url": "/contact",
-      "is_featured": true
+      "is_featured": true,
+      "cta_text": "Get Started",
+      "cta_url": "/contact"
     },
     {
-      "name": "Enterprise",
-      "price": "Custom",
-      "billing_period": "",
+      "name": "Personal Training Package",
+      "price": "75",
+      "billing_period": "/session",
       "features": [
-        "Unlimited workflows",
-        "Dedicated engineer",
-        "SLA-backed support",
-        "Quarterly strategy sessions",
-        "White-glove onboarding"
+        "One-on-one coaching",
+        "Customized workout plans",
+        "Form and technique refinement",
+        "Progress tracking",
+        "Flexible scheduling"
       ],
-      "cta_text": "Book a Call",
-      "cta_url": "/contact",
-      "is_featured": false
+      "is_featured": false,
+      "cta_text": "Get Started",
+      "cta_url": "/contact"
     }
   ],
   "faq": [
     {
-      "question": "How long does a typical automation project take?",
-      "answer": "Most Starter projects are delivered within 5–7 business days. Growth projects typically run 2–4 weeks depending on integration complexity and feedback cycles."
+      "question": "Do I need boxing experience to join SpeakEasy?",
+      "answer": "No! Our classes are designed to be accessible and challenging for all fitness levels and skill sets. Whether you're a complete beginner or an experienced boxer, our coaches will tailor the experience to meet you where you are."
     },
     {
-      "question": "Do I need to be technical to work with you?",
-      "answer": "Not at all. We handle everything technical and document all workflows in plain language so your team can understand and maintain them."
+      "question": "What are your class schedule and times?",
+      "answer": "We offer boxing classes Monday-Friday at 6:30 PM and Saturday at 12 PM. Youth boxing classes run Monday, Wednesday, Friday at 4:15 PM and Tuesday, Thursday at 5:00 PM. Contact us for a complete schedule and to book your first class."
     },
     {
-      "question": "What tools do you integrate with?",
-      "answer": "We integrate with virtually any tool that has an API or webhook — including HubSpot, Salesforce, Slack, Google Workspace, QuickBooks, and hundreds more via N8N."
+      "question": "Do you offer personal training?",
+      "answer": "Yes! We offer personalized one-on-one coaching and small group training sessions. Contact us to discuss your fitness goals and schedule a session with one of our certified trainers."
     },
     {
-      "question": "What happens if something breaks after delivery?",
-      "answer": "All packages include post-delivery support. Growth and Enterprise clients receive priority response within 4 business hours."
+      "question": "What equipment do I need to bring?",
+      "answer": "We provide all the equipment you need including hand wraps, gloves, heavy bags, and more. Just bring comfortable workout clothes and your commitment to training hard!"
     },
     {
-      "question": "Can you build on top of automations we already have?",
-      "answer": "Yes. We frequently audit and extend existing N8N, Zapier, or Make.com workflows rather than rebuilding from scratch — preserving your investment."
+      "question": "Do you have programs for youth?",
+      "answer": "Absolutely! Our Youth Boxing program is designed for young athletes to build strength, technique, confidence, and discipline in a supportive team environment. Classes are held multiple times per week with expert instruction."
     }
   ],
   "content": {
     "hero": {
-      "headline": "Automate the Routine. Focus on What Matters.",
-      "subheadline": "Apex Demo Co delivers AI-powered automations and custom web solutions that eliminate manual work and accelerate your growth.",
-      "cta_text": "Get Started Today",
+      "headline": "Train Like a Champ",
+      "subheadline": "Boxing Classes, Personal Training & Cross-Training at SpeakEasy Boxing + Fitness",
+      "cta_text": "Start Your Journey",
       "cta_href": "/contact",
-      "background_image_url": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=1600&q=80"
+      "background_image_url": "https://picsum.photos/seed/speakeasy-boxing-hero/1600/900"
     },
     "cta_banner": {
-      "headline": "Ready to Eliminate Manual Work?",
-      "subheadline": "Book a free 30-minute discovery call and we'll identify your top three automation opportunities.",
-      "cta_text": "Book a Free Call",
+      "headline": "Ready to Get Started?",
+      "subheadline": "Join our community of fighters and fitness enthusiasts. Stay committed, show up, and achieve your goals.",
+      "cta_text": "Contact Us Today",
       "cta_href": "/contact"
     },
     "stripe_payment": {
-      "label": "Become a Member",
+      "label": "Purchase Class Package",
       "url": null,
       "variant": "primary"
     },
     "footer": {
-      "tagline": "Built for the businesses that run the world.",
-      "social_links": [
-        { "platform": "Twitter", "href": "https://twitter.com/apexdemo" },
-        { "platform": "LinkedIn", "href": "https://linkedin.com/company/apexdemo" },
-        { "platform": "GitHub", "href": "https://github.com/apexdemo" }
-      ]
+      "tagline": "Train Like a Champ at SpeakEasy Boxing + Fitness",
+      "social_links": []
     }
   }
 }
